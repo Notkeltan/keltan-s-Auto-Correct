@@ -1,0 +1,10 @@
+{
+  "id": "05-keltans-Auto-Correct",
+  "name": "05 keltan's Auto Correct",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Auto-correct misspelled words as you type. Triggers on space key.",
+  "author": "keltan",
+  "authorUrl": "substack.com/keltan",
+  "isDesktopOnly": false
+}

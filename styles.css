@@ -1,0 +1,61 @@
+/* Auto Correct Plugin Styles */
+
+.autocorrect-settings h2 {
+	margin-bottom: 1.5em;
+	color: var(--text-normal);
+	border-bottom: 1px solid var(--background-modifier-border);
+	padding-bottom: 0.5em;
+}
+
+.autocorrect-snippets-container {
+	display: flex;
+	gap: 2em;
+	margin-top: 1.5em;
+	padding-top: 1em;
+	border-top: 1px solid var(--background-modifier-border);
+}
+
+.autocorrect-left-col {
+	flex: 0 0 250px;
+}
+
+.autocorrect-left-col h3 {
+	margin: 0 0 0.5em 0;
+	font-size: 1em;
+	font-weight: 600;
+}
+
+.autocorrect-left-col p {
+	margin: 0.3em 0;
+	font-size: 0.85em;
+	color: var(--text-muted);
+	line-height: 1.4;
+}
+
+.autocorrect-right-col {
+	flex: 1;
+}
+
+.autocorrect-textarea {
+	width: 100%;
+	min-height: 350px;
+	padding: 12px;
+	font-family: var(--font-monospace);
+	font-size: 0.9em;
+	line-height: 1.5;
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 6px;
+	background: var(--background-primary);
+	color: var(--text-normal);
+	resize: vertical;
+}
+
+.autocorrect-textarea:focus {
+	outline: none;
+	border-color: var(--interactive-accent);
+	box-shadow: 0 0 0 2px var(--background-modifier-border);
+}
+
+.autocorrect-textarea::placeholder {
+	color: var(--text-faint);
+}
